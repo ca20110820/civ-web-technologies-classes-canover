@@ -1,0 +1,54 @@
+
+/* Horizontal Navigation */
+nav ul {
+    list-style-type: none;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+/* Resize Article Image Size */
+.article-img {
+    width: 300px;
+    height: auto;
+}
+
+.main-row {
+    margin-left: 300px;
+    margin-right: 300px;
+    display: inline-grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+.main-articles {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    row-gap: 1px;
+    column-gap: 1px;
+}
+
+.main-aside {
+    grid-auto-columns: 1fr;
+}
+
+.footer {
+    margin-top: 60px;
+    margin-left: 320px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+}
+
+.footer #footer-nav #footer-nav-list {
+    margin-left: 420px;
+    list-style-type: none;
+}
