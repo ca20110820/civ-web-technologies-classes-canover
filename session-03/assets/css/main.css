@@ -36,6 +36,10 @@ nav ul li a {
     column-gap: 1px;
 }
 
+.main-articles > .article > article > section > p {
+    margin-right: 150px;
+}
+
 .main-aside {
     grid-auto-columns: 1fr;
 }
